@@ -36,8 +36,10 @@ public class BubbleSort {
         return array;
     }
 
+
+
     public static void main(String[] args) {
-        int[] arr={5,4,8,9,6,1,2,3};
+        int[] arr={1,2,3,4,9,8};
         System.out.println(Arrays.toString(new BubbleSort().bubbleSortImprove(arr)));
     }
 }
